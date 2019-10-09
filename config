@@ -1,0 +1,118 @@
+Build Configuration:
+WRLINUX_VERSION      = "10.19.41.0"
+WRLINUX_BRANCH       = "development"
+BB_VERSION           = "1.43.2"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "ubuntu-16.04"
+DISTRO               = "wrlinux-std-sato"
+DISTRO_VERSION       = "10.19.41.0"
+MACHINE              = "qemux86"
+DEFAULTTUNE          = "core2-32"
+TARGET_SYS           = "i686-wrs-linux"
+TUNE_FEATURES        = "m32 core2"
+TARGET_FPU           = ""
+wrlinux              
+wrlinux-distro       = "master-wr:c3662430145dbbc053ae3e180718735f09f52fd8"
+meta                 = "wr-10.19-20190923:818b3862c8877e5da14e1bed8d4d5e186a4f39e5"
+meta-initramfs       
+meta-xfce            
+meta-oe              
+meta-filesystems     
+meta-webserver       
+meta-networking      
+meta-python          
+meta-perl            
+meta-gnome           
+meta-multimedia      = "wr-10.19-20191007:f8ef8fbad0ef7921e52e58ef6c8bde0a3e09914a"
+meta-security        = "wr-10.19-20191007:0ccc26532102bf8e2888dd471433dea6c6fb0314"
+meta-selinux         = "wr-10.19-20190918:0264873d2f42d27e6b9ac5ed58bcd54d1b34b2c4"
+intel-x86            = "master-wr:ae5d7b8b8e0f126075680c61031a19ccaacf35af"
+meta-virtualization  = "wr-10.19-20191007:0f593fc3aafd72f6d1e3012d99a112d1253e14da"
+meta-realtime        = "wr-10.19-20190904:3679d0a2bb1631c3ca828f659026b25a9e32c9b7"
+meta-mingw           = "wr-10.19-20190729:608a5c136c10af3d1a51c7c1a8092ca3540022b1"
+wr-template          = "master-wr:4f4e06413262e09e9eadbad427860218485bb3c3"
+meta-yocto-bsp       
+meta-poky            = "wr-10.19-20191007:e71a6c2d88cb2561ced2db2e9978438d742c6f68"
+xilinx-zynqmp        = "master-wr:ab4df16c02775af745ae6217fab1956c4df3e9c3"
+xilinx-zynq          = "master-wr:5ca7cd692da2b99a26cfce00fd3a11a20cc9d890"
+meta-gplv2           = "wr-10.19-20190923:7465c2f767a8d0dfdc0b6a72372d2ce42512acb5"
+meta-efi-secure-boot 
+meta-encrypted-storage 
+meta-integrity       
+meta-signing-key     = "wr-10.19-20191007:1da311f0acaac07f1ea515350d11792820888917"
+meta-cloud-services  = "wr-10.19-20190925:2533d6d35fbf63181aff11be5c6f62ec1c2a5a90"
+bcm-2xxx-rpi         = "master-wr:64f3747b708fdf3d96b6a37fe3192ebe1e4b3ecc"
+meta                 
+meta-ids             
+meta-tpm             
+meta-tpm2            = "wr-10.19-20191007:1da311f0acaac07f1ea515350d11792820888917"
+meta-openstack       
+meta-openstack-aio-deploy 
+meta-openstack-compute-deploy 
+meta-openstack-compute-test-config 
+meta-openstack-controller-deploy 
+meta-openstack-controller-test-config 
+meta-openstack-qemu  
+meta-openstack-swift-deploy = "wr-10.19-20190925:2533d6d35fbf63181aff11be5c6f62ec1c2a5a90"
+meta-intel           = "wr-10.19-20191007:bfe488078c5a410adeb87c29260de00cd589e1de"
+wrlinux-ovp          = "master-wr:c3662430145dbbc053ae3e180718735f09f52fd8"
+meta-cgl-common      = "wr-10.19-20190904:3b3e76966e5f5531c26159f13e8af64a944f193d"
+wrlinux-cgl          = "master-wr:c3662430145dbbc053ae3e180718735f09f52fd8"
+meta-dpdk            = "wr-10.19-20190904:d47ec402e149efab56de38516a47b01f7e3b98d6"
+meta-intel-qat       = "wr-10.19-20190408:7a49ca357fc1a130d5de2d6862168901f7229b14"
+ti-am335x            = "master-wr:c8d2f3f208c59e237005c95355807f2ddbbfe411"
+nxp-ls20xx           = "master-wr:d7c4b4675a84ffb45c257d6bf24e35c0b6040d66"
+meta-anaconda        = "wr-10.19-20190925:9f003912eb0fe77a2baf7ec94f2903aae4982dec"
+meta-overc           
+meta-cube            = "wr-10.19-20190923:07acd491d73d0b96569997287cae11e1f3562ffd"
+meta-iot-cloud       = "wr-10.19-20191007:d8798d5bea2d4f737798571d1f451fd7e8bfd389"
+wrlinux-overc        = "master-wr:c3662430145dbbc053ae3e180718735f09f52fd8"
+wrlinux-overc-cfg    = "master-wr:639a999f5b83640b075c0306ea53b3da8913522d"
+wr-ostree            = "master-wr:74f022065f953f2e856665e6c394dbe2a8349289"
+marvell-cn9xxx       = "master-wr:5ddaf52665f5dab8742243d1b726de3b2f85ffaf"
+meta-openssl102      = "wr-10.19-20191007:425c3682e6e9863f83b371b63f738dc297350408"
+meta-openssl102-fips = "wr-10.19-20191007:5b27f342a7477bdb7aa44ed65fd6f35e4ab391bd"
+renesas-rcar         = "master-wr:8f005fe6369014fa7d36560077d095dcace4b5da"
+meta-security-compliance = "wr-10.19-20191007:0ccc26532102bf8e2888dd471433dea6c6fb0314"
+meta-selinux-dl      = "master-wr:5d8abd764665e84ee86a69e45b81e60642518765"
+meta-mingw-dl        = "master-wr:b5fd1f7adbb1a3af1c783e86b6d9afbd207acce7"
+meta-security-dl     = "master-wr:16b56192bc7cc9820ea0f2648770c7e7f0f0b0fa"
+meta-efi-secure-boot-dl = "master-wr:69a1ba636a8f2a4770bcc825a33cbb3526ab4458"
+meta-encrypted-storage-dl = "master-wr:66323e9c6e55ecd52585172aab978d484c38038c"
+meta-integrity-dl    = "master-wr:d1841efd8be7a1a297dfde0e41c04ff67a838230"
+meta-ids-dl          = "master-wr:4776e1b663889c9e92c753a3af1b1a445215bb05"
+meta-tpm2-dl         = "master-wr:e2db5950f3c04449ad2d2e74a312895763655800"
+wrlinux-dl           = "master-wr:cd603e8efdc6cc5e409e2565c4c8ca82d9e10c22"
+meta-tpm-dl          = "master-wr:0bc1f5e31a80393e440d293e3475c7fae87850ad"
+wrlinux-ovp-dl       = "master-wr:35bb001bfa237bbee1961c32dad1b4c59a0e8b65"
+meta-cgl-common-dl   = "master-wr:6f2de8bc052b56f8af4ed6cf121cac7de14b6282"
+wrlinux-cgl-dl       = "master-wr:932c12a9fb7451eaa310b5e6a1acce4dd6f467fa"
+meta-intel-dl        = "master-wr:e86516955eac4c6f93d242deabbe0d5653f063d2"
+meta-dpdk-dl         = "master-wr:33b1e56216337eb0d7f23b0986a2507da589c768"
+meta-intel-qat-dl    = "master-wr:1fcda4ebabe8ca82f98e6eb8c71c36b33eec9347"
+meta-anaconda-dl     = "master-wr:7a02f967fcc33131503bc1dcef9360a14b0fe27b"
+intel-socfpga-dl     = "master-wr:64262bd299d3f9b2bbdc999018920d71c3edc2d0"
+meta-signing-key-dl  = "master-wr:e885ec390aa8801b160236c05e86627a0bd6d185"
+meta-overc-dl        = "master-wr:fdf7a24c307eef6dd8e232061abf001a2d58d9ff"
+xilinx-zynqmp-dl     = "master-wr:4b06b2366d5cd51118636e5731b0d2044db53f18"
+wr-ostree-dl         = "master-wr:1cf488c4d8f69f992705ce06e0edd4ab34d9457f"
+meta-security-compliance-dl = "master-wr:283f08c3b253d2eb3e0031b31a2af35ab3f4fd54"
+meta-openssl102-dl   = "master-wr:0d20740545a145b1cf51cb169728918f47db1386"
+meta-openssl102-fips-dl = "master-wr:c27eec5fba24ee4f62c5250c8cb920d8fd6095b9"
+meta-cloud-services-dl-3.0 = "master-wr:56b6547b2a2f2536d88d9bb09f2eb43199103459"
+meta-gplv2-dl-3.0    = "master-wr:e72b3a85d93e330a253ccbceda011ee166adb4a0"
+meta-openstack-dl-3.0 = "master-wr:5331b2e72ea786aa822366b6a03f8211c13edde9"
+meta-realtime-dl-3.0 = "master-wr:4a3c4ec75b261b7512ea897060a8ee7c0436f789"
+meta-virtualization-dl-3.0 = "master-wr:762f70a226275f95a2ccf00c6d9bc5bda57529da"
+oe-core-dl-3.0       = "master-wr:e7f2cfbd0efc771bf6d713708bffe53f4c8deb0b"
+meta-filesystems-dl-3.0 = "master-wr:8240c0d610db7b062ff3c60df1733cdb94efbcb8"
+meta-gnome-dl-3.0    = "master-wr:56944e3663e797f2ccc06628ae357538ee9d8a3d"
+meta-initramfs-dl-3.0 = "master-wr:942a644c480deeebabdb584bf2044bc2e5a53fd4"
+meta-multimedia-dl-3.0 = "master-wr:57b1c1084fca3151cf649262eebc1b42d240fb95"
+meta-networking-dl-3.0 = "master-wr:f3003763eb7c5163533dd444c41a304b1e926588"
+meta-oe-dl-3.0       = "master-wr:01ae5f73b82359959720b3999bba8702c834fc6d"
+meta-perl-dl-3.0     = "master-wr:9d350fa1c32a794098ed6feae036d797ea31a0ae"
+meta-python-dl-3.0   = "master-wr:7cded1a95cc93b5f564ec269d0241afacca692f8"
+meta-webserver-dl-3.0 = "master-wr:39103b8da30a6831f30b6f2eb4649d1eb642a276"
+meta-xfce-dl-3.0     = "master-wr:e19c4d5d10f413eab2588d6fcbde0394d8386d92"
+local                = "master:82bfe598fb33e3a135c05f08a70983b756318559"
